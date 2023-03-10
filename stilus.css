@@ -1,0 +1,58 @@
+body{
+    background-color: cornflowerblue;
+}
+
+#megjelenito{
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    max-width: 80vw;
+    max-height: 60vh;
+    margin: auto;
+    padding-bottom: 15vh;
+    
+}
+
+#megjelenito button{
+    background-color: black;
+}
+
+#nagykep{   
+    overflow: hidden;
+}
+
+#nagykep img{
+    width: 100%;
+}
+
+aside{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20vh;
+}
+
+aside div{
+    margin: auto;
+    width: 25vw;
+    height: 27vh;
+    border-radius: 5px;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+.kiskep img{
+    width: 100%;
+    
+    
+}
+
+button{
+    padding: 0;
+    border-radius: 5px;
+    color: aliceblue;
+       
+}
+
+
